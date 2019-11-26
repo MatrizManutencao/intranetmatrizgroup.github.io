@@ -337,7 +337,7 @@ a img.aligncenter {
 
 .letter{
     font-size:100px;
-    color:#222;
+    color:rgb(255, 255, 255);
     font-family:tahoma;
 }
 
@@ -379,7 +379,7 @@ a img.aligncenter {
     -ms-justify-content:center;
     height:100px;
     width:100px;
-    background-color:#222;
+    background-color:rgb(255, 255, 255);
 }
 
 .cupcakeInner{
@@ -402,7 +402,7 @@ a img.aligncenter {
     -ms-align-self:center;
     height:25%;
     width:25%;
-    background-color:#222;
+    background-color:rgb(255, 255, 255);
     -webkit-animation-name:coreAnimate;
     -webkit-animation-duration:1s;
     -webkit-animation-direction:alternate;

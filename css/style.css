@@ -320,7 +320,27 @@ a img.aligncenter {
 /*------------------------------------------------------------------
     Preloader
 -------------------------------------------------------------------*/
-
+#preloader {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99999; /* makes sure it stays on top */ 
+  }
+  
+  #status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(loader.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+  }
 #cupcake{
 	flex-direction:row;
 	-webkit-flex-direction:row;
@@ -337,7 +357,7 @@ a img.aligncenter {
 
 .letter{
     font-size:100px;
-    color:#222;
+    color:rgb(255, 255, 255);
     font-family:tahoma;
 }
 
@@ -379,7 +399,7 @@ a img.aligncenter {
     -ms-justify-content:center;
     height:100px;
     width:100px;
-    background-color:#222;
+    background-color:rgb(255, 255, 255);
 }
 
 .cupcakeInner{
@@ -402,7 +422,7 @@ a img.aligncenter {
     -ms-align-self:center;
     height:25%;
     width:25%;
-    background-color:#222;
+    background-color:rgb(255, 255, 255);
     -webkit-animation-name:coreAnimate;
     -webkit-animation-duration:1s;
     -webkit-animation-direction:alternate;
